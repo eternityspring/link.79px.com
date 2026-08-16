@@ -35,6 +35,24 @@
     "featured": false
   },
   {
+    "slug": "chatcut",
+    "shortPath": "/chatcut",
+    "shortUrl": "/chatcut",
+    "url": "https://chatcut.pslink.cc/zbpli7hw",
+    "title": "ChatCut",
+    "description": "Prompt-driven AI video editor with sign-up referral",
+    "description_zh": "ChatCut 提示词驱动的 AI 视频剪辑工具，注册推荐链接",
+    "description_en": "ChatCut prompt-driven AI video editor",
+    "code": "",
+    "category": "AI",
+    "tags": [
+      "ai",
+      "video",
+      "editing"
+    ],
+    "featured": false
+  },
+  {
     "slug": "cliproxy",
     "shortPath": "/cliproxy",
     "shortUrl": "/cliproxy",
@@ -152,6 +170,24 @@
     "tags": [
       "ai",
       "maas"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "xiangongyun",
+    "shortPath": "/xiangongyun",
+    "shortUrl": "/xiangongyun",
+    "url": "https://www.xiangongyun.com/register/L3RQ9V",
+    "title": "仙宫云",
+    "description": "GPU compute rental cloud for AI workloads with sign-up referral",
+    "description_zh": "仙宫云 GPU 算力租赁平台，注册推荐链接",
+    "description_en": "Xiangongyun GPU compute rental cloud for AI workloads",
+    "code": "L3RQ9V",
+    "category": "GPU",
+    "tags": [
+      "gpu",
+      "cloud",
+      "ai"
     ],
     "featured": false
   },
