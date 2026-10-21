@@ -167,13 +167,13 @@ function renderCard(link) {
   const monograms = { 'ai-galaxy': '星', anyrouter: 'Ar', bandwagonhost: 'BW', chatcut: 'Cc', cliproxy: 'Cp', dmit: 'D', hncloud: '华', neon: 'N', racknerd: 'RN', rentuibang: '推', vast: 'V', wise: 'W', xiangongyun: '仙', 'xfyun-maas': '讯', 'xiaomi-mimo': 'Mi', zai: 'Z' }
   el.className = `link-card tone-${category.tone}`
   el.innerHTML = `
-    <div class="card-top">
+    <a class="card-top" href="${esc(link.shortPath)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('visit'))}: ${esc(title)}">
       <span class="resource-icon" aria-hidden="true">${esc(monograms[link.slug] || title.slice(0, 2))}</span>
       <div class="card-title">
-        <h3><a href="${esc(link.shortPath)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>${link.featured ? `<span class="featured-mark" title="${esc(t('featured'))}" aria-label="${esc(t('featured'))}">✳</span>` : ''}</h3>
+        <h3>${esc(title)}${link.featured ? `<span class="featured-mark" title="${esc(t('featured'))}" aria-label="${esc(t('featured'))}">✳</span>` : ''}</h3>
         <span class="card-category">${esc(category[language])}</span>
       </div>
-    </div>
+    </a>
     <p class="description" title="${esc(localDescription(link, language))}">${esc(localDescription(link, language))}</p>
     <div class="tags">${(link.tags || []).map(tag => `<span class="tag">${esc(tag)}</span>`).join('')}</div>
     <div class="card-footer">
