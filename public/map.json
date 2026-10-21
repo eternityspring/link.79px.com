@@ -1,5 +1,23 @@
 [
   {
+    "slug": "ai-galaxy",
+    "shortPath": "/ai-galaxy",
+    "shortUrl": "/ai-galaxy",
+    "url": "https://gpu.ai-galaxy.com/login?page=register&salesCode=CE2269",
+    "title": "智星云 AI Galaxy",
+    "description": "AI Galaxy GPU cloud computing platform with sign-up referral",
+    "description_zh": "智星云 GPU 算力服务平台，注册推荐链接",
+    "description_en": "AI Galaxy GPU cloud computing platform with sign-up referral",
+    "code": "CE2269",
+    "category": "GPU",
+    "tags": [
+      "gpu",
+      "cloud",
+      "ai"
+    ],
+    "featured": false
+  },
+  {
     "slug": "anyrouter",
     "shortPath": "/anyrouter",
     "shortUrl": "/anyrouter",
@@ -87,6 +105,24 @@
     "featured": false
   },
   {
+    "slug": "hncloud",
+    "shortPath": "/hncloud",
+    "shortUrl": "/hncloud",
+    "url": "https://www.hncloud.com/activity/activity_2026midAutumn.html?k=2O70IJ",
+    "title": "华纳云",
+    "description": "HNCloud cloud and dedicated server promotion",
+    "description_zh": "华纳云云服务器与独立服务器活动页面",
+    "description_en": "HNCloud cloud and dedicated server promotion",
+    "code": "2O70IJ",
+    "category": "VPS",
+    "tags": [
+      "vps",
+      "cloud",
+      "hosting"
+    ],
+    "featured": false
+  },
+  {
     "slug": "neon",
     "shortPath": "/neon",
     "shortUrl": "/neon",
@@ -136,6 +172,24 @@
       "cps",
       "promotion",
       "referral"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "vast",
+    "shortPath": "/vast",
+    "shortUrl": "/vast",
+    "url": "https://cloud.vast.ai/?ref_id=709915",
+    "title": "Vast.ai",
+    "description": "GPU cloud platform for AI training, inference, and rendering",
+    "description_zh": "GPU 云算力平台，支持 AI 训练、推理和渲染",
+    "description_en": "GPU cloud platform for AI training, inference, and rendering",
+    "code": "709915",
+    "category": "GPU",
+    "tags": [
+      "gpu",
+      "cloud",
+      "ai"
     ],
     "featured": false
   },
