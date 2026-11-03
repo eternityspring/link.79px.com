@@ -1,5 +1,5 @@
 export const CATEGORIES = {
-  AI: { zh: 'AI 工具', en: 'AI tools', icon: 'sparkles', tone: 'ai' },
+  AI: { zh: 'AI 服务', en: 'AI services', icon: 'sparkles', tone: 'ai' },
   GPU: { zh: 'GPU 算力', en: 'GPU compute', icon: 'chip', tone: 'gpu' },
   VPS: { zh: '云服务器', en: 'Cloud servers', icon: 'server', tone: 'vps' },
   Database: { zh: '数据库', en: 'Databases', icon: 'database', tone: 'database' },
